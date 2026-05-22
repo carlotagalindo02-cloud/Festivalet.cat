@@ -421,7 +421,7 @@ nav ul li a:hover {
 }
 
 .card {
-  background: url('entrevistes/grafica.svg') no-repeat center center;
+  background: url('../entrevistes/grafica.svg') no-repeat center center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -744,11 +744,12 @@ footer {
   gap: 12px;
 }
 
+
 /* =========================================
-   VERSIÓ TAULETA — 1024px
+   VERSIÓ TAULETA
    ========================================= */
 
-@media screen and (max-width: 1024px) and (min-width: 431px) {
+@media screen and (max-width: 1180px) {
 
   /* =========================================
      MARGE LATERAL GLOBAL

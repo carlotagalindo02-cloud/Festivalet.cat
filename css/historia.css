@@ -309,10 +309,15 @@ nav ul li a,
   margin-top: 150px;
 }
 
+.history-section h2 {
+  white-space: nowrap;
+  width: max-content;
+}
+
 .background-line {
   position: absolute;
   left: 50%;
-  top: 230px;
+  top: 190px;
   transform: translateX(-50%);
   width: 100% !important;
   height: 1103px !important;
@@ -620,7 +625,7 @@ footer {
    VERSIÓ TAULETA
    ========================================================================== */
 
-@media screen and (max-width: 1024px) and (min-width: 431px) {
+@media screen and (max-width: 1180px) and (min-width: 431px) {
 
   /* --- MARGE LATERAL GLOBAL --- */
 

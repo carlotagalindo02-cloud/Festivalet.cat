@@ -479,11 +479,12 @@ footer {
   gap: 12px;
 }
 
+
 /* =========================================
-   VERSIÓ TAULETA — 1024px
+   VERSIÓ TAULETA
    ========================================= */
 
-@media screen and (max-width: 1024px) and (min-width: 431px) {
+@media screen and (max-width: 1180px) {
 
   /* --- MARGE LATERAL GLOBAL --- */
 

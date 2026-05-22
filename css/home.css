@@ -414,6 +414,7 @@ nav ul li a,
 /* =========================================
    ENTREVISTES
    ========================================= */
+
 .cards-container {
   display: flex;
   justify-content: space-between;
@@ -451,11 +452,30 @@ nav ul li a,
   color: var(--marro-fosc);
   font-size: 14px;
   font-weight: 400;
-  text-align: right;
   margin-top: -23px;
-  margin-bottom: 15px;
   display: block;
 }
+
+.social-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-top: auto;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 120px;
+  margin-left: 320px;
+}
+
+.date {
+  margin-left: auto;
+}
+
 
 /* =========================================
    SPONSORS
@@ -517,12 +537,15 @@ nav ul li a,
 /* =========================================
    FOOTER
    ========================================= */
+
 footer {
   background-color: var(--carn-clar);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 80px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer-left img {
@@ -546,7 +569,6 @@ footer {
 .footer-center a {
   color: var(--marro-fosc);
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
 .footer-center a:hover {

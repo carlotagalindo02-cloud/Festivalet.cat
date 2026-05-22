@@ -74,7 +74,7 @@ body {
   height: 52px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-image: url("../icones/boto.svg") ;
+  background-image: url("../icones/boto.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,17 +93,27 @@ body {
               filter 0.3s ease;
 }
 
+/* HOVER BOTONS */
+.btn-custom:hover,
+.wrapper-centrat:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+  filter: brightness(1.1);
+}
+
+/* CENTRAT */
 .wrapper-centrat {
   margin-left: auto;
   margin-right: auto;
 }
 
-a {
+/* LINKS NORMALS */
+a:not(.btn-custom):not(.wrapper-centrat) {
   color: var(--marro-fosc);
   transition: color 0.3s ease;
 }
 
-a:hover {
+a:not(.btn-custom):not(.wrapper-centrat):hover {
   color: var(--taronja-viu);
 }
 
@@ -436,6 +446,10 @@ nav ul li a,
   min-height: 100%;
 }
 
+.card sub {
+  text-align: left;
+}
+
 .main-img {
   width: 100%;
   height: 240px;
@@ -469,7 +483,7 @@ nav ul li a,
   gap: 20px;
   align-items: center;
   width: 120px;
-  margin-left: 320px;
+  margin-left: 250px;
 }
 
 .date {

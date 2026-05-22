@@ -319,7 +319,7 @@ nav ul li a,
   left: 50%;
   top: 190px;
   transform: translateX(-50%);
-  width: 100% !important;
+  width: 90% !important;
   height: 1103px !important;
   object-fit: contain !important;
   object-position: center !important;
